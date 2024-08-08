@@ -17,6 +17,7 @@ const SearchForm = () => {
     >
       <input
         type="text"
+        name="search"
         placeholder="Monkey"
         value={value}
         onChange={(e) => setValue(e.target.value)}

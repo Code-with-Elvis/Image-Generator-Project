@@ -19,7 +19,7 @@ const Photos = () => {
 
   if (isLoading) {
     return (
-      <section className=" mt-10 grid gap-2 grid-cols-3 max-[500px]:grid-cols-2">
+      <section className=" mt-10 max-w-[900px] mx-auto grid gap-2 grid-cols-3 max-[500px]:grid-cols-2">
         {[1, 2, 3, 4, 5, 6].map((item) => (
           <div key={item} className="skeleton skeleton-card"></div>
         ))}
